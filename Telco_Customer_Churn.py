@@ -123,3 +123,10 @@ ax.bar_label(ax.containers[1])
 plt.title("Churned Customers by Payment Method")
 plt.xticks(rotation=45)
 plt.show()
+
+# Monthly Charges vs Tenure with Regression line
+plt.figure(figsize=(10, 6))
+sns.lmplot(data=df, x='tenure', y='MonthlyCharges', hue='Churn', 
+           markers=["o", "x"], palette="Set1", scatter_kws={'alpha':0.3})
+plt.title("Relationship between Tenure and Monthly Charges by Churn")
+plt.show()
