@@ -130,3 +130,10 @@ sns.lmplot(data=df, x='tenure', y='MonthlyCharges', hue='Churn',
            markers=["o", "x"], palette="Set1", scatter_kws={'alpha':0.3})
 plt.title("Relationship between Tenure and Monthly Charges by Churn")
 plt.show()
+
+# Heatmap of numeric correlations
+plt.figure(figsize=(8, 6))
+numeric_df = df.select_dtypes(include=[np.number]) # Filter for only numbers
+sns.heatmap(numeric_df.corr(), annot=True, cmap='coolwarm', fmt=".2f")
+plt.title("Correlation Heatmap of Numerical Features")
+plt.show()
