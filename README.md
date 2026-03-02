@@ -65,8 +65,8 @@ pip install pandas numpy matplotlib seaborn
 
 ---
 
-* **ARJUN**
-* **TEJUS**
-* **JOEL**
+* **ARJUN RAJ B**
+* **TEJUS C**
+* **JOEL TOM PHILIP**
 
 ---
