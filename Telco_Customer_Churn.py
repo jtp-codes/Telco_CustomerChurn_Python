@@ -137,3 +137,14 @@ numeric_df = df.select_dtypes(include=[np.number]) # Filter for only numbers
 sns.heatmap(numeric_df.corr(), annot=True, cmap='coolwarm', fmt=".2f")
 plt.title("Correlation Heatmap of Numerical Features")
 plt.show()
+#Bivariate Density Plot
+plt.figure(figsize=(10, 6))
+
+# Plotting the density of Tenure vs Monthly Charges for Churned vs Non-Churned
+sns.kdeplot(data=df, x="tenure", y="MonthlyCharges", hue="Churn", 
+            fill=True, alpha=0.5, palette="magma")
+
+plt.title("The 'Danger Zone': Density of Tenure vs. Monthly Charges")
+plt.xlabel("Tenure (Months)")
+plt.ylabel("Monthly Charges in '$' ")
+plt.show()
