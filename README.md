@@ -20,16 +20,14 @@
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/jtp-codes/Telco_Customer_Churn-using-R-.git
-cd Telco_Customer_Churn-using-R-
-
+git clone https://github.com/jtp-codes/Telco_CustomerChurn_Python.git
+cd Telco_CustomerChurn_Python
 ```
 
 ### 2. Install Python dependencies:
 
 ```bash
 pip install pandas numpy matplotlib seaborn
-
 ```
 
 ## 📈 Key Insights
@@ -59,14 +57,14 @@ pip install pandas numpy matplotlib seaborn
 * **Matplotlib**
 * **Seaborn**
 
----
+## 🔗 Related Project
 
-## 👥 Creators
+Same analysis built in R with ggplot2 → [Telco_Customer_Churn-using-R-](https://github.com/jtp-codes/Telco_Customer_Churn-using-R-)
 
----
+## 👤 Creator
 
-* **ARJUN RAJ B**
-* **TEJUS C**
-* **JOEL TOM PHILIP**
+**Joel Tom Philip** — B.Sc. Data Science Student, HBSU & FinX Institute Limited
 
----
+📧 [philipjoel800@gmail.com](mailto:philipjoel800@gmail.com)
+🔗 [LinkedIn](https://linkedin.com/in/joeltomphilip)
+🐙 [GitHub](https://github.com/jtp-codes)
